@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Sphere.ma
-//Last modified: Fri, Aug 28, 2026 02:11:12 PM
+//Last modified: Sun, Aug 30, 2026 06:11:25 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "72B68AFC-4275-1A51-DA92-289B7153AC53";
+fileInfo "UUID" "1F8A1037-4265-2472-86B6-FABD337180E2";
 createNode transform -s -n "persp";
 	rename -uid "6B6E9AD0-44BF-9AD2-2C8C-3590BF8C8B0A";
 	setAttr ".v" no;
@@ -314,8 +314,8 @@ createNode animCurveTU -n "pPlane1_scaleZ";
 	setAttr ".wgt" no;
 	setAttr ".ktv[0]"  26 6.3676318820512323;
 select -ne :time1;
-	setAttr ".o" 51;
-	setAttr ".unw" 51;
+	setAttr ".o" 11;
+	setAttr ".unw" 11;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
