@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: Table&Chair_V001.ma
-//Last modified: Tue, Sep 01, 2026 11:42:54 AM
+//Last modified: Tue, Sep 01, 2026 11:53:32 AM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "F43EF580-478A-A683-A2DE-F19748B10F71";
+fileInfo "UUID" "0731BCFD-483C-56A2-44EB-30866149D38D";
 createNode transform -s -n "persp";
 	rename -uid "16681C6A-4DCA-2A14-CF40-879874505614";
 	setAttr ".v" no;
@@ -9577,7 +9577,7 @@ createNode mesh -n "pCubeShape11" -p "pCube11";
 	setAttr ".dr" 1;
 createNode transform -n "pCube12";
 	rename -uid "2DD6DD16-4799-4384-7901-E8AC278F2A4E";
-	setAttr ".t" -type "double3" -0.85687183503088438 -0.3819657195758781 -3.9300218320008957 ;
+	setAttr ".t" -type "double3" -0.68936632310528001 -0.3819657195758781 -3.9300218320008957 ;
 	setAttr ".r" -type "double3" -0.067739875482638295 -33.184545746652788 -0.0029209353628591029 ;
 	setAttr ".rp" -type "double3" 5.3256237317373936 1.4995741332840018 0 ;
 	setAttr ".rpt" -type "double3" -3.6304292905242619e-14 -1.5574781048188768e-14 -7.5495165674510645e-15 ;
@@ -10152,10 +10152,10 @@ createNode mesh -n "pCube12Shape" -p "pCube12";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode transform -n "pCube13";
 	rename -uid "CD164B41-4DA6-9473-C128-74B56B9BE475";
-	setAttr ".t" -type "double3" -1.9094644267772996 -0.3819657195758781 -1.505512716498238 ;
-	setAttr ".r" -type "double3" 0.070050493590881474 138.72038404291175 0.001020164663104609 ;
+	setAttr ".t" -type "double3" -2.6541604521100659 -0.3819657195758781 -3.6484113019635358 ;
+	setAttr ".r" -type "double3" 0.067382340537444574 68.979989451587144 -0.0021373445259372176 ;
 	setAttr ".rp" -type "double3" 5.3256237317373936 1.4995741332840018 0 ;
-	setAttr ".rpt" -type "double3" -2.1316282072803006e-13 -3.7209818559702512e-15 -3.1086244689504383e-15 ;
+	setAttr ".rpt" -type "double3" -2.375877272697835e-13 -1.1307794978154817e-14 3.5527136788005009e-15 ;
 	setAttr ".sp" -type "double3" 5.3256237317373936 1.4995741332840018 0 ;
 createNode mesh -n "pCube13Shape" -p "pCube13";
 	rename -uid "B24C7541-4333-E389-AB89-B49BBFFF8C89";
