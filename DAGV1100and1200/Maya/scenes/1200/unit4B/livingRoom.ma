@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: livingRoom.ma
-//Last modified: Wed, Oct 07, 2026 11:39:09 AM
+//Last modified: Wed, Oct 07, 2026 11:45:16 AM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "2EF7E2E5-4ECE-CC41-951C-1586716FBB01";
+fileInfo "UUID" "7B34530E-4F79-BD7A-9030-BA9CF1C31474";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "04BCF29B-4BD5-8A2D-50BC-2988E1D19DA3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.6603880740759269 3.2384938480716272 -4.0911205470945555 ;
-	setAttr ".r" -type "double3" -25.199999999990286 386.80000000010267 -8.9082601799061256e-16 ;
+	setAttr ".t" -type "double3" -13.252749217771228 7.7668275251593242 6.82006617863511 ;
+	setAttr ".r" -type "double3" -15.599999999990581 307.60000000009796 -1.303195890761467e-15 ;
 	setAttr ".rpt" -type "double3" -3.6838329242828158e-18 -1.0879692088102488e-17 4.3051632203428562e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FB8974D5-4ED0-3CE2-D482-7BAA39B3E752";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 0.52816086231283033;
+	setAttr ".coi" 14.333511879267022;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -45889,20 +45889,20 @@ createNode mesh -n "FrameShape2" -p "Frame2";
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "C7D47EC6-45D1-C7CE-A263-D8BBF51B1A9A";
+	rename -uid "9EC2134D-4B61-3D8E-42F0-F284BC74B7B4";
 	setAttr -s 17 ".lnk";
 	setAttr -s 17 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "FE3359FF-4508-233D-3D2F-CCB5B55E546D";
+	rename -uid "17463F1C-4981-CA10-C6D5-12BE2147AC6E";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "B22E8B23-4555-EB48-B204-4AB40B2BF7B4";
+	rename -uid "0EEE4DD5-4E8D-45EF-7C74-AAA7D2F5CBAE";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "C9C085E3-492F-A0D4-863C-5C9823607B26";
+	rename -uid "9EF618A2-4B0E-95B9-E451-8FBC65DAD034";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "0B1B746E-4662-1EF6-89A0-C284BFAA19F9";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "F0D14A0E-42C9-E771-5500-41A91807C690";
+	rename -uid "7BED54C8-407C-E05D-FC87-F5B59F730B3E";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "F03C9E26-4DED-EED5-BCCE-D8AF468FD26A";
 	setAttr ".g" yes;
@@ -46314,7 +46314,7 @@ createNode polyMapCut -n "polyMapCut12";
 createNode polyTweakUV -n "polyTweakUV2";
 	rename -uid "DE73F93E-4F7C-B794-18D5-489507586154";
 	setAttr ".uopa" yes;
-	setAttr -s 13 ".uvtk";
+	setAttr -s 8 ".uvtk";
 	setAttr ".uvtk[13]" -type "float2" 0.0011399537 0.00081521273 ;
 	setAttr ".uvtk[16]" -type "float2" 0.00035604835 -0.0012048185 ;
 	setAttr ".uvtk[21]" -type "float2" 0.00042617321 -0.0016184449 ;
