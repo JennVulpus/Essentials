@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: livingRoom.ma
-//Last modified: Tue, Nov 03, 2026 01:05:02 PM
+//Last modified: Tue, Nov 03, 2026 01:14:36 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -16,7 +16,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Pro v2009 (Build: 19045)";
-fileInfo "UUID" "C178D477-43D1-DD6E-1F35-DE892A1162E5";
+fileInfo "UUID" "257A077F-47D5-25A7-945A-9D9F600ABE6E";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "04BCF29B-4BD5-8A2D-50BC-2988E1D19DA3";
@@ -52793,7 +52793,7 @@ createNode aiOptions -s -n "defaultArnoldRenderOptions";
 	rename -uid "95A66A04-4F2C-A850-6678-EBB46B35C653";
 	addAttr -ci true -sn "ARV_options" -ln "ARV_options" -dt "string";
 	setAttr ".version" -type "string" "5.6.2";
-	setAttr ".ARV_options" -type "string" "Test Resolution=100%;Camera=cameraShape1;Color Management.Gamma=1;Color Management.Exposure=0;Background.BG=BG Color;Background.Color=0 0 0;Background.Image=;Background.Scale=1 1;Background.Offset=0 0;Background.Apply Color Management=1;Foreground.Enable FG=0;Foreground.Image=;Foreground.Scale=1 1;Foreground.Offset=0 0;Foreground.Apply Color Management=1;Interactive.FPS=16";
+	setAttr ".ARV_options" -type "string" "Test Resolution=100%;Color Management.Gamma=1;Color Management.Exposure=0;Background.BG=BG Color;Background.Color=0 0 0;Background.Image=;Background.Scale=1 1;Background.Offset=0 0;Background.Apply Color Management=1;Foreground.Enable FG=0;Foreground.Image=;Foreground.Scale=1 1;Foreground.Offset=0 0;Foreground.Apply Color Management=1;Interactive.FPS=16";
 createNode aiAOVFilter -s -n "defaultArnoldFilter";
 	rename -uid "267229E8-42E8-C5C9-A17F-31A841411398";
 	setAttr ".ai_translator" -type "string" "gaussian";
@@ -52855,7 +52855,7 @@ createNode file -n "file2";
 createNode place2dTexture -n "place2dTexture20";
 	rename -uid "390C1553-4882-AF79-9606-CFAFB741DE9B";
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "F811A8EA-4D0A-0BE0-E6F2-A1A6A5ED6B7D";
+	rename -uid "D34C5C7A-439B-962E-F519-A8BBA6CDAF56";
 	setAttr -s 2 ".tgi";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
 	setAttr ".tgi[0].vl" -type "double2" -3843.7727410350994 -1584.523746560496 ;
